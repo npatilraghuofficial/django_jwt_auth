@@ -1,0 +1,21 @@
+
+apis:
+python manage.py runserver
+
+register:
+http://127.0.0.1:8000/api/user/register/:
+schema:
+  {
+  "email":"test@gmail.com",
+  "name":"test",
+  "password":"123",
+  "tc":"True"
+}
+
+++++++++++++++++++++++++++++++++++++++++++++
+login:
+{"email":"test@gmil.com",
+  "password":"test"
+}
+
+
